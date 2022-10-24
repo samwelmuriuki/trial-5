@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root{
+    --bgcolor1:grey;
+    --bgcolor2:brown;
+    --color:white;
+}
+a{
+    list-style: none;
+
+}
+.header{
+    height: 20vh;
+    display: flex;
+    position: sticky;
+    /* color: aqua; */
+    /* position: sticky; */
+    background-color: var(--bgcolor2);
+}
+.logo{
+    padding-top: 2rem;
+    padding-left: 1rem;
+}
+.navbar {
+display: flex;
+float: right;
+}
+.navbar ul{
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-left: 20rem;
+    
+    /* float: right; */
+    
+    
+}
+.navbar ul li{
+    text-align: center;
+    float: right;
+    
+    /* padding-bottom: 6rem; */
+    /* padding-right: 4rem; */
+}
+navbar ul li a{
+    color: var(--color);
+    list-style: none;
+}
+.navbar ul li a:hover{
+    background-color: var(--bgcolor1);
+    border-radius: 50rem;
+    transition: 0.8sec;
+    /* border-bottom: 1rem solid black; */
+}
+.main-body1{
+height: 50vh;
+background-color: gray;
+display: flex;
+padding-top: 1rem;
+}
+.main-body1 .right-content{
+    flex: 1;
+    background-image: url(images/bg2.jpg);
+}
+.main-body1 .left-content{
+flex: 1;
+padding-left: 1rem;
+font-size: 2rem;
+}
+.main-body1 .left-content h1{
+    text-align: center;
+    font-weight: 700;
+}
+.main-body2{
+    display: flex;
+    height: 60vh;
+}
+.main-body2 .left-content1 {
+    flex: 1;
+    padding: 2rem 2rem;
+    background-image: url(images/classroom.webp);
+}
+.main-body2 .right-content1 {
+    flex: 1;
+    padding: 2rem 2rem;
+    background-color: aqua;
+}
+.main-body2 .right-content1 button{
+    padding-bottom: 2rem;
+}
+.main-body2 .right-content1 p{
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+   
+}
+
+.main-body3{
+    display: flex;
+    height: 60vh;
+}
+.main-body3 .right-content2 {
+    flex: 1;
+    padding: 2rem 2rem;
+    background-image: url(images/bg5.jpg);
+}
+.main-body3 .left-content2 {
+    flex: 1;
+    padding: 2rem 2rem;
+    background-color: blueviolet;
+
+
+}
+.main-body3 .right-content2 p{
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+}
+.footer{
+    height: 50vh;
+    background-color: black;
+    color: white;
+    list-style: none;
+    display: flex;
+}
+.explore{
+    display: block;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    flex: 1;
+    list-style: none;
+}
+.explore ul{
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+.connect{
+    display: block;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    flex: 1;
+}
+.connect p{
+    font-size: 2rem;
+    padding-top: 1rem;
+
+}
+.contact{
+    display: block;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    flex: 1;
+
+}
+.contact p{
+    font-size: 2rem;
+    padding-top: 1rem;
+
+}
